@@ -198,17 +198,17 @@ app.get("/about", function (req, res) {
 
 
 
-let port = process.env.PORT;
-if (port == null || port == "") {
-  port = 1337;
-}
-app.listen(port);
+// let port = process.env.PORT;
+// if (port == null || port == "") {
+//   port = 3000;
+// }
+// app.listen(port);
 
 
 
 
 
 //Server connections
-app.listen(port, function () {
+app.listen(process.env.PORT||3000, function () {
   console.log("Server started on port 3000");
 });
