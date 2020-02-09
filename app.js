@@ -33,15 +33,15 @@ const Item = mongoose.model("Item", itemsSchema);
 
 //Create model with Schema
 const item1 = new Item({
-  name: "welcome to your Tofo list"
+  name: "welcome to your ToDoList!"
 });
 
 const item2 = new Item({
-  name: "hey now you connect your Todo with DataBase"
+  name: "Hit the + button to add new item."
 });
 
 const item3 = new Item({
-  name: "Now i learning the MongoDB"
+  name: "<-- Hit this sto delete the item"
 });
 
 const defaultitems = [item1, item2, item3];
