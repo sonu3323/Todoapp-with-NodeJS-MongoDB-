@@ -8,6 +8,7 @@ html {
 h1 {
   color: #fff;
   padding: 10px;
+  text-shadow: 1px 1px 1px black;
 }
 
 .box {
@@ -37,6 +38,7 @@ h1 {
 input:checked+p {
   text-decoration: line-through;
   text-decoration-color: #A683E3;
+  color:red;
 }
 
 input[type="checkbox"] {
@@ -93,4 +95,6 @@ footer {
   color: white;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
+  font-size: 25px;
+  
 }
